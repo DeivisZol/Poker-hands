@@ -1,6 +1,6 @@
 public enum CardType {
-    Diamonds,
-    Clubs,
-    Hearths,
-    Spades
+    DIAMONDS,
+    CLUBS,
+    HEARTHS,
+    SPADES
 }
