@@ -148,10 +148,10 @@ public class Game {
 
     /**
      * Completes logic of the game
-     * @param player1Result true
-     * @param player2Result true
-     * @param player1HigherCard true
-     * @return true
+     * @param player1Result does player1 have such combo
+     * @param player2Result does player2 have such combo
+     * @param player1HigherCard does player1 have higher card than player2
+     * @return Match result player1_wins, player2_wins, tie(nothing happened)
      * if player1 and player2 have same combo the player who has higher card wins.
      * if player1 has combo and player2 don't player1 wins and vice versa
      * if no-one has the combo returns TIE
@@ -170,10 +170,10 @@ public class Game {
     }
     /**
      * Completes logic of the game
-     * @param player1Result true
-     * @param player2Result true
-     * @param player1HigherCard true
-     * @return true
+     * @param player1Result does player1 have such combo
+     * @param player2Result does player2 have such combo
+     * @param player1HigherCard does player1 have higher card than player2
+     * @return Match result player1_wins, player2_wins, tie(nothing happened)
      * if player1 and player2 have same combo the player who has higher card in the combo wins. If combo value is the same player with higher card wins.
      * if player1 has combo and player2 don't player1 wins and vice versa
      * if no-one has the combo returns TIE
