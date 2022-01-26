@@ -1,6 +1,12 @@
+package Aplication.Player;
+
+import Aplication.Player.Card.Card;
+import Aplication.Player.Card.CardValue;
+
 import java.util.List;
 
 public class Player {
+    //player has hand with 5 card class objects.
     private final Card[] hand = new Card[5];
     private int highCard = 0;
 

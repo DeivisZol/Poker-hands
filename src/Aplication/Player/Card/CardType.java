@@ -1,3 +1,5 @@
+package Aplication.Player.Card;
+
 import java.util.Arrays;
 
 public enum CardType {
@@ -12,6 +14,12 @@ public enum CardType {
         this.value = value;
     }
 
+
+    /**
+     * From char input finds first match of enum and sets value accordingly
+     * @param value 'D'
+     * @return DIAMONDS
+     */
     public static CardType valueOf(char value) {
         return Arrays.stream(values())
                 .filter(cardType -> cardType.value == value)
