@@ -1,6 +1,9 @@
 package Tests;
 
 import Aplication.Game.Game;
+import Aplication.Player.Card.Card;
+import Aplication.Player.Card.CardType;
+import Aplication.Player.Card.CardValue;
 import Aplication.Player.Player;
 import org.junit.Assert;
 import org.junit.Test;
@@ -14,6 +17,19 @@ public class GameTest {
         boolean actualWinner = game.playGame();
         boolean expectedWinner = true;
         Assert.assertEquals(actualWinner, expectedWinner);
+    }
+
+    @Test
+    public void givenCard() {
+        Card card = new Card("TS");
+
+        CardValue actualCardValue = card.getCardValue();
+        CardValue expectedCardValue = CardValue.TEN;
+        Assert.assertEquals(actualCardValue, expectedCardValue);
+
+        CardType actualCardType = card.getCardType();
+        CardType expectedCardType = CardType.SPADES;
+        Assert.assertEquals(actualCardType, expectedCardType);
     }
 
     @Test
