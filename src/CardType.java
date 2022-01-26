@@ -3,7 +3,7 @@ import java.util.Arrays;
 public enum CardType {
     DIAMONDS('D'),
     CLUBS('C'),
-    HEARTHS('H'),
+    HEARTS('H'),
     SPADES('S');
 
     private final char value;

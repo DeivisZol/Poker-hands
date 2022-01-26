@@ -7,7 +7,7 @@ public class Card {
         cardType = CardType.valueOf(card.charAt(1));
     }
 
-    public CardValue getCardClass() {
+    public CardValue getCardValue() {
         return cardValue;
     }
 
