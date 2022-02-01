@@ -7,7 +7,7 @@ public class Card {
 
     /**
      * Converts from single char to enum type
-     * @param card value 2,3,4,5,...,queen,king,ace - in char format
+     * @param card 2H
      * CardValue.valueOf(2) -> cardValue = TWO
      * CardType.valueOf(H) -> cardType = HEARTS
      */
