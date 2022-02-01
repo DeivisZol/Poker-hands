@@ -25,8 +25,8 @@ public enum CardValue {
 
     /**
      * From char input finds first match of enum and sets value accordingly
-     * @param value '2'
-     * @return TWO
+     * @param value value 2,3,4,5,...,queen,king,ace - in char format
+     * @return Enum type value accordingly to input
      */
     public static CardValue valueOf(char value) {
         return Arrays.stream(values())
